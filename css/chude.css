@@ -1,0 +1,199 @@
+@media (max-width: 1300px) {
+    .reponvive_SEC1 {
+        display: none;
+    }
+
+    .reponsive_imgSEC4 {
+        display: none;
+    }
+}
+
+.bgrheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+.bgrheader img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.imgbgrheader {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.imgbgrheader img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+
+.texts {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -85px;
+}
+
+.texts span {
+    display: block;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.kodfun-galeri {
+    display: flex;
+    height: 12rem;
+    gap: 2rem;
+    padding-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -70px;
+}
+
+.kodfun-galeri>div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.kodfun-galeri>div:hover {
+    flex: 5;
+}
+
+.main-content {
+    background-color: #B0C4DE;
+    border-radius: 1rem;
+
+}
+
+.container {
+
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+    gap: 25px;
+}
+
+.container .card {
+    width: 308px;
+    position: relative;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+    border-radius: 19px;
+}
+
+.container .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 240px;
+    top: -60px;
+    left: 25px;
+    box-shadow: 0 5px 20px rbga (0, 0, 0, 1.2);
+}
+
+.container .card .imgBx img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.imgBx:hover img {
+    transform: scale(1.1);
+}
+
+.overflow-ellipsis {
+    font-size: 15px;
+    white-space: nowrap;
+    /* Ngăn chữ xuống dòng */
+    overflow: hidden;
+    /* Ẩn phần dư thừa của chữ */
+    text-overflow: ellipsis;
+    /* Thêm dấu chấm ở cuối chuỗi */
+    margin-right: 25px;
+}
+
+.overflow-ellipsis:hover {
+    overflow: visible;
+    /* Hiển thị toàn bộ nội dung khi di chuột qua */
+    white-space: normal;
+    /* Cho phép chữ xuống dòng */
+}
+
+.udm {
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.undermain {
+    display: flex;
+    padding: 20px;
+}
+
+.text2 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.anh {
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    object-fit: contain;
+}
+
+.undermain2 {
+    display: flex;
+    padding: 40px;
+}
+
+.text3 {
+    font-size: 1.25rem;
+    margin-left: -100px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.anh2 {
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    object-fit: contain;
+}

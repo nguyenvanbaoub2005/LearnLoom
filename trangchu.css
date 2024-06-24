@@ -1,0 +1,478 @@
+.background-part {
+    width: 100%;
+    height: 300px;
+    /* Điều chỉnh chiều cao của phần có nền ảnh */
+    background-image: url('path-to-your-image.jpg');
+    /* Đường dẫn tới ảnh của bạn */
+    background-size: cover;
+    /* Điều chỉnh kích thước ảnh để phủ kín phần này */
+    background-position: center;
+    /* Căn giữa ảnh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+
+
+.rounded-rectangle {
+    display: inline-block;
+    padding: 2px 20px;
+    /* Khoảng cách từ nội dung tới viền */
+    background-color: #eaeaea;
+    /* Màu nền của hình chữ nhật */
+    color: rgb(0, 0, 0);
+    /* Màu chữ */
+    font-size: 20px;
+    /* Kích thước chữ */
+    border-radius: 25px;
+    /* Bo tròn góc của hình chữ nhật */
+    box-shadow: 0 4px 8px #8fc6f6;
+    /* Hiệu ứng đổ bóng */
+    text-align: center;
+    /* Căn giữa nội dung */
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+
+
+.footer-menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: #3366CC;
+    /* Change this to your desired hover color */
+}
+
+img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.navbar .form-control {
+    width: 700px;
+    /* Đặt chiều rộng của ô tìm kiếm */
+    border-radius: 20px;
+    /* Bo tròn góc của ô tìm kiếm */
+}
+
+
+.navbar .nav-item {
+    width: 100px;
+    /* Điều chỉnh độ rộng của mỗi mục */
+}
+
+
+.navbar {
+    position: fixed;
+    /* Cố định thanh menu ở vị trí trên cùng */
+    width: 100%;
+    /* Chiều rộng tương đương với toàn bộ màn hình */
+    height: 7.8%;
+    top: 0;
+    /* Đặt thanh menu ở trên cùng */
+    background-color: #ffffff;
+    /* Màu nền của thanh menu */
+    z-index: 1000;
+    /* Đặt z-index để nó hiển thị trên tất cả các phần tử khác */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+    /* Khoảng cách giữa các mục menu */
+}
+
+.fullscreen-image {
+    background-image: url('stock-photo-gray-background-image-640944943.jpg');
+    /* Đường dẫn đến hình ảnh của bạn */
+    background-size: cover;
+    /* Phủ hết kích thước của phần tử container */
+    background-position: center;
+    /* Căn giữa hình ảnh */
+    width: 100%;
+    /* Chiều rộng tương đương với toàn bộ màn hình */
+    height: 100vh;
+    /* Chiều cao tương đương với toàn bộ màn hình */
+    position: fixed;
+    /* Đảm bảo rằng nó sẽ luôn nằm ở vị trí đúng, ngay cả khi cuộn trang */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* Đặt z-index thấp hơn để nó không che phủ nội dung khác */
+}
+
+maginImg {
+    margin-right: 400px;
+}
+
+.fullscreen-image1 {
+    background-image: url('img/backgroundTrangchu.jpg');
+    /* Đường dẫn đến hình ảnh của bạn */
+    background-size: cover;
+    /* Phủ hết kích thước của phần tử container */
+    background-position: center;
+    /* Căn giữa hình ảnh */
+    width: 100%;
+    /* Chiều rộng tương đương với toàn bộ màn hình */
+    height: 100vh;
+    /* Chiều cao tương đương với toàn bộ màn hình */
+    position: fixed;
+    /* Đảm bảo rằng nó sẽ luôn nằm ở vị trí đúng, ngay cả khi cuộn trang */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* Đặt z-index thấp hơn để nó không che phủ nội dung khác */
+    background-color: rgba(0, 0, 0, 0.492);
+    /* Màu đen với độ trong suốt 50% */
+    background-blend-mode: darken;
+    /* Pha trộn màu nền với ảnh nền để làm mờ */
+}
+
+/* Tài liệu */
+
+.ani-xoay {
+    width: 300px;
+    height: 204px;
+    box-shadow: 0 10px 40px 2px rgb(0 0 0 / 40%);
+    transition: all 0.5s ease-out;
+    animation-iteration-count: infinite;
+    transform: perspective(1000px) rotateX(35deg) rotateY(4deg) rotateZ(-30deg);
+
+}
+
+.ani-xoay:hover {
+    font-weight: 900;
+    animation: unset;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.ani-xoay .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    height: 100%;
+}
+
+.text-xoay {
+    color: #3366CC;
+    ;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Khóa học */
+
+.top1 {
+    width: 30%;
+    float: left;
+    margin: 10px;
+    background-color: white;
+}
+
+.top1 img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.top1:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.top1 img:hover {
+    transition: 0.5s;
+    image-rendering: pixelated;
+}
+
+.top1 h5:hover {
+    cursor: pointer;
+    color: #2c31cf;
+}
+
+.top1 h5 {
+    padding: 0px 5px;
+}
+
+.top1 p {
+    padding: 0px 5px;
+    color: gray;
+}
+
+h3 a {
+    color: #2c31cf;
+}
+
+@media screen and (max-width: 750px) {
+    .top1 {
+        width: 100%;
+        margin-left: -6%;
+    }
+
+    .reponsive_Course {
+        display: none;
+    }
+
+    .text1SEC1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 475px) {
+    .top1 {
+        width: 45%;
+    }
+
+    .text1SEC1 {
+        display: none;
+    }
+}
+
+
+/* Chia sẻ */
+
+.col-sm-4 input {
+    width: 270px;
+    float: left;
+}
+
+.col-sm-4 button {
+    float: left;
+}
+
+.col-sm-4 hr {
+    width: 40px;
+    height: 2px;
+    float: left;
+}
+
+.col-sm-4 ul {
+    list-style-type: none;
+    float: left;
+}
+
+.col-sm-4 img {
+    width: 148px;
+    height: 100px;
+}
+
+.col-sm-4 img:hover {
+    image-rendering: pixelated;
+}
+
+.col-sm-4 li {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid;
+    display: flex;
+    background-color: white;
+}
+
+.col-sm-4 p {
+    margin-left: 10px;
+}
+
+.col-sm-4 li:hover {
+    cursor: pointer;
+    background-color: #DDDDDD;
+    color: #3366CC;
+}
+
+.white-button {
+    background-color: #fff;
+    /* Màu nền trắng */
+    color: #000;
+    /* Màu chữ đen */
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    /* Viền đậm */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Hiệu ứng chuyển đổi màu nền và màu chữ */
+}
+
+.white-button:hover {
+    background-color: #3366CC;
+    /* Màu nền xanh dương khi hover */
+    color: #fff;
+    /* Màu chữ trắng khi hover */
+}
+
+.blue-button {
+    background-color: #3366CC;
+    /* Màu nền xanh dương */
+    color: #fff;
+    /* Màu chữ trắng */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Hiệu ứng chuyển đổi màu nền và màu chữ */
+}
+
+.blue-button:hover {
+    background-color: #fff;
+    /* Màu nền trắng khi hover */
+    color: #3366CC;
+    /* Màu chữ xanh dương khi hover */
+}
+
+/*------*/
+.card-section {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    /* Khoảng cách bên trái */
+    margin-right: 300px;
+    /* Khoảng cách bên phải */
+}
+
+.card {
+    width: 170px;
+    /* Độ rộng của mỗi thẻ */
+    height: 250px;
+    /* Chiều cao của mỗi thẻ */
+    margin-bottom: 20px;
+    /* Khoảng cách giữa các thẻ dọc */
+    padding: 10px;
+    background-color: #ffffff;
+    /* Màu nền mặc định của thẻ */
+    transition: background-color 0.3s ease;
+    /* Hiệu ứng chuyển đổi màu nền */
+    display: flex;
+    /* Dùng flexbox để xếp các phần tử bên trong */
+    flex-direction: column;
+    /* Xếp các phần tử theo chiều dọc */
+    align-items: center;
+    /* Căn giữa các phần tử theo chiều ngang */
+    margin-right: 2px;
+    /* Khoảng cách giữa các thẻ ngang */
+}
+
+.card:hover {
+    background-color: #3366CC;
+    /* Màu nền khi hover vào thẻ */
+}
+
+.card-image {
+    width: 100%;
+    /* Độ rộng của phần hình  ảnh */
+    height: 60%;
+    /* Chiều cao của phần hình ảnh */
+    display: flex;
+    /* Dùng flexbox để căn giữa hình ảnh */
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+}
+
+.card-image img {
+    max-width: 100%;
+    /* Độ rộng tối đa của ảnh */
+    max-height: 100%;
+    /* Chiều cao tối đa của ảnh */
+    vertical-align: middle;
+    /* Căn giữa theo chiều dọc */
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+    /* Căn giữa nội dung theo chiều ngang */
+}
+
+.card-content p {
+    margin: 0;
+}
+
+.card-content a {
+    color: #3366CC;
+    /* Màu chữ của đường dẫn */
+    text-decoration: none;
+}
+
+.card-content a:hover {
+    text-decoration: none;
+    /* Bỏ gạch chân khi hover vào đường dẫn */
+    color: #fff;
+    /* Màu chữ khi hover vào đường dẫn */
+}
+
+.card-content a h6 {
+    margin: 0;
+    /* Xóa khoảng cách lề của thẻ H6 */
+    color: inherit;
+    /* Kế thừa màu chữ từ phần tử cha */
+    font-size: 14px;
+    /* Cỡ chữ của thẻ H6 */
+    transition: color 0.3s ease;
+    /* Hiệu ứng chuyển đổi màu chữ */
+}
+
+.card-content a:hover h6 {
+    color: #fff;
+    /* Màu chữ khi hover vào thẻ */
+}
+
+
+/* CSS để căn giữa hình ảnh */
+.row {
+    display: flex;
+    justify-content: center;
+
+    /* Căn giữa các thành phần theo chiều ngang */
+    align-items: center;
+    /* Căn giữa các thành phần theo chiều dọc */
+}
+
+.col-sm-5 {
+    text-align: center;
+    /* Căn giữa nội dung trong col-sm-5 */
+}
+
+.col-sm-5 img {
+    max-width: 100%;
+    /* Độ rộng tối đa của hình ảnh */
+    height: auto;
+    /* Chiều cao tự động theo tỷ lệ */
+}
+
+.fontSize {
+    font-size: 16px;
+}
